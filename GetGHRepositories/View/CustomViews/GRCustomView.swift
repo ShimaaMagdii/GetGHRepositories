@@ -24,12 +24,10 @@ class GRCustomView : UIView {
     // MARK: - Init
     override init(frame: CGRect) {
         super.init(frame: frame)
-        dropCardShadow()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        dropCardShadow()
     }
     
     override func draw(_ rect: CGRect) {

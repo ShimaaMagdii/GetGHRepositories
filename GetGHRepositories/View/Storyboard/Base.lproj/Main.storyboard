@@ -28,7 +28,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dpk-AY-KLX" userLabel="containerView" customClass="GRCustomView" customModule="GetGHRepositories" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dpk-AY-KLX" userLabel="containerView">
                                                     <rect key="frame" x="16" y="10" width="343" height="104"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeHolder" translatesAutoresizingMaskIntoConstraints="NO" id="c1i-XM-lCj">
@@ -83,7 +83,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <outlet property="containerView" destination="Dpk-AY-KLX" id="RRn-0I-b8j"/>
+                                            <outlet property="containerView" destination="Dpk-AY-KLX" id="Dd0-4a-HrI"/>
                                             <outlet property="descLabel" destination="C9m-cZ-Gds" id="yHo-Ck-A4R"/>
                                             <outlet property="forksLabel" destination="jFM-z7-cgJ" id="ypz-fG-929"/>
                                             <outlet property="nameLabel" destination="X8r-Hp-vbQ" id="7vG-bg-gLH"/>

@@ -16,8 +16,8 @@ typealias ImageDownloadCompletion = () -> Void
  */
 class GRRepositoryViewCell : UITableViewCell {
     
-    // MARK: - Outlets
-    @IBOutlet weak var containerView: GRCustomView!
+    // MARK: - Outlets    
+    @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var ownerAvatar: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descLabel: UILabel!
@@ -26,6 +26,7 @@ class GRRepositoryViewCell : UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        containerView.dropCardShadow()
     }
     
     /**
