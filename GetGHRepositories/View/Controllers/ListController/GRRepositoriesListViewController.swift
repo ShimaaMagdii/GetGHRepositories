@@ -17,10 +17,19 @@ class GRRepositoriesListViewController: GRBaseViewController {
     @IBOutlet weak var repositoryTableView: UITableView!
     
     // MARK: - Properties
-    var repositoryPresenter :  GRRepositoryPresenter!
+    var repositoryPresenter:  GRRepositoryPresenter!
+    internal var searchController: UISearchController = UISearchController(searchResultsController: nil)
+    
     var repositoriesList = [GRRepositoryViewModel](){
         didSet{
             repositoryTableView.reloadData()
+        }
+    }
+    internal var searchText: String? {
+        didSet {
+            if let text = searchText {
+                repositoryPresenter.loadDataWithSearchText(searchText: text)
+            }
         }
     }
     
@@ -33,7 +42,7 @@ class GRRepositoriesListViewController: GRBaseViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        repositoryPresenter.loadDataWithSearchText(searchText: "images")
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -54,9 +63,15 @@ class GRRepositoriesListViewController: GRBaseViewController {
         return UIStoryboard(name: StoryboardIdentifier.mainStoryboardIdentifier, bundle: Bundle.main).instantiateViewController(withIdentifier: StoryboardIdentifier.repositoriesListVCIdentifier)as! GRRepositoriesListViewController
     }
     
-    func setupTableView () {
-        repositoryTableView.estimatedRowHeight = 100
+    //MARK:- Private Methods
+    private func setupTableView () {
+        repositoryTableView.estimatedRowHeight = UITableViewConstants.estimatedRowHeight
         repositoryTableView.rowHeight = UITableViewAutomaticDimension
+        searchController.searchBar.delegate = self
+        searchController.dimsBackgroundDuringPresentation = false
+        searchController.delegate = self
+        definesPresentationContext = true
+        repositoryTableView.tableHeaderView = searchController.searchBar
     }
     
     
