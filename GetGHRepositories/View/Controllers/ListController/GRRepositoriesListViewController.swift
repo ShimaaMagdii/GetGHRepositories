@@ -17,7 +17,7 @@ class GRRepositoriesListViewController: GRBaseViewController {
     @IBOutlet weak var repositoryTableView: UITableView!
     
     // MARK: - Properties
-    var repositoryPresenter:  GRRepositoryPresenter!
+    var repositoryPresenter : GRRepositoryPresenter!
     internal var searchController: UISearchController = UISearchController(searchResultsController: nil)
     
     var repositoriesList = [GRRepositoryViewModel](){
@@ -38,11 +38,6 @@ class GRRepositoriesListViewController: GRBaseViewController {
         super.viewDidLoad()
         setupTableView()
         repositoryPresenter = GRRepositoryPresenter(self)
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
     }
     
     override func didReceiveMemoryWarning() {

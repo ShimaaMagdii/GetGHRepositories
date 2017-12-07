@@ -61,10 +61,6 @@ fileprivate struct MappingKey {
     static let subscribersUrl         : String = "subscribers_url"
     static let totalCount             : String = "total_count"
     static let repositoriesList       : String = "items"
-    
-    
-    
-    
-    
+
 }
 

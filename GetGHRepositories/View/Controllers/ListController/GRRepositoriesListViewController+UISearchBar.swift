@@ -8,6 +8,7 @@
 
 import UIKit
 
+// MARK: Extension for Repositories List ViewController searchBar and searchController delegates
 extension GRRepositoriesListViewController: UISearchControllerDelegate, UISearchBarDelegate {
     
     // MARK: - UISearchBarDelegate Methods

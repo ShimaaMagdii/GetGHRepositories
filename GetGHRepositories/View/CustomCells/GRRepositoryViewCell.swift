@@ -31,6 +31,7 @@ class GRRepositoryViewCell : UITableViewCell {
     /**
      Customize Cell With Model displays details for each repository model.
      - Parameter repository: GRRepositoryViewModel contains repository details.
+     - Parameter completion: ImageDownloadCompletion colusre that handles getting the image.
      */
     func customizeCellWithModel(_ repository: GRRepositoryViewModel?,  completion: @escaping ImageDownloadCompletion) {
         if let repositoryModel = repository {

@@ -10,7 +10,6 @@ import UIKit
 extension UIView {
     
     func dropCardShadow(){
-        
         self.layer.masksToBounds = false
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowOpacity = 0.3

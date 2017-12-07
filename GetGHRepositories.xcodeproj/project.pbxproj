@@ -146,6 +146,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D41B91AE1FD96D7B00589A57 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07C5E1FD81CDF008461B1 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D41B91AF1FD96E1100589A57 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07C661FD81CE0008461B1 /* Info.plist */,
+				D4F07C631FD81CE0008461B1 /* LaunchScreen.storyboard */,
+				D4F07C611FD81CE0008461B1 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		D4D549381FD89DAF00B56555 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,11 +204,7 @@
 				D4F07CA61FD825F8008461B1 /* Network */,
 				D4F07CA11FD8249A008461B1 /* Service */,
 				D4F07C9E1FD8241C008461B1 /* Utils */,
-				D4F07C5A1FD81CDF008461B1 /* AppDelegate.swift */,
-				D4F07C5E1FD81CDF008461B1 /* Main.storyboard */,
-				D4F07C611FD81CE0008461B1 /* Assets.xcassets */,
-				D4F07C631FD81CE0008461B1 /* LaunchScreen.storyboard */,
-				D4F07C661FD81CE0008461B1 /* Info.plist */,
+				D41B91AF1FD96E1100589A57 /* SupportingFiles */,
 			);
 			path = GetGHRepositories;
 			sourceTree = "<group>";
@@ -271,6 +285,7 @@
 		D4F07C9A1FD8231C008461B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D41B91AE1FD96D7B00589A57 /* Storyboard */,
 				D4D549381FD89DAF00B56555 /* CustomViews */,
 				D4F07C9B1FD8232D008461B1 /* CustomCells */,
 				D4F07C931FD81EFB008461B1 /* Controllers */,
@@ -289,6 +304,7 @@
 		D4F07C9E1FD8241C008461B1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D4F07C5A1FD81CDF008461B1 /* AppDelegate.swift */,
 				D4F07C9F1FD8242A008461B1 /* Constants.swift */,
 			);
 			path = Utils;
@@ -806,7 +822,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SK6WUB3TZG;
-				INFOPLIST_FILE = GetGHRepositories/Info.plist;
+				INFOPLIST_FILE = GetGHRepositories/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AsanaRebel.GetGHRepositories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -822,7 +838,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SK6WUB3TZG;
-				INFOPLIST_FILE = GetGHRepositories/Info.plist;
+				INFOPLIST_FILE = GetGHRepositories/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AsanaRebel.GetGHRepositories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
