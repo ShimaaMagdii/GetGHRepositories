@@ -17,12 +17,20 @@ class GRBaseViewController: UIViewController {
     }
     
     func showMessageWithModel(model: GRRepositoryViewModel?) {
-
+        
     }
     
     private func showMessage(message: String) {
         let alertController = UIAlertController.init(title: nil, message: message, preferredStyle: .alert)
         alertController.addAction(UIAlertAction.init(title: "OK", style: .cancel, handler: nil))
         present(alertController, animated: true, completion: nil)
+    }
+    
+    func showProgressBar (){
+        MBProgressHUD.showAdded(to: self.view, animated: true)
+    }
+    
+    func hideProgressBar (){
+        MBProgressHUD.hide(for: self.view, animated: true)
     }
 }

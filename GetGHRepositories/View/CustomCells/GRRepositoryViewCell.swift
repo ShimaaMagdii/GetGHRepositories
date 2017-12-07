@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import Kingfisher
+
+typealias ImageDownloadCompletion = () -> Void
+
 /**
  *  GRRepositoryViewCell table view cell displays the repository details.
  */
@@ -28,16 +32,21 @@ class GRRepositoryViewCell : UITableViewCell {
      Customize Cell With Model displays details for each repository model.
      - Parameter repository: GRRepositoryViewModel contains repository details.
      */
-    func customizeCellWithModel(_ repository: GRRepositoryViewModel?) {
+    func customizeCellWithModel(_ repository: GRRepositoryViewModel?,  completion: @escaping ImageDownloadCompletion) {
         if let repositoryModel = repository {
             nameLabel.text = repositoryModel.name
             descLabel.text = repositoryModel.desc
             if let forks =  repositoryModel.forks {
-                 forksLabel.text = "\(forks)"
+                forksLabel.text = "\(forks)"
             }
-           
-            //  ownerAvatar.image = UIImage(
-            
+            if let urlString = repository?.avatarUrl{
+                let url = URL(string: urlString)
+                ownerAvatar.kf.setImage(with: url, placeholder: #imageLiteral(resourceName: "placeHolder"), options: nil, progressBlock: nil, completionHandler: {(image, error, cacheType, url) in
+                    if cacheType == .none || cacheType == .disk {
+                        completion()
+                    }
+                })
+            }
         }
     }
     

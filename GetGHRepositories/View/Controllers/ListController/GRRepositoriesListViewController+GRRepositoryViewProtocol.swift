@@ -1,5 +1,5 @@
 //
-//   GRRepositoriesListViewController+MTVehicleViewProtocol.swift
+//  GRRepositoriesListViewController+GRRepositoryViewProtocol.swift
 //  GetGHRepositories
 //
 //  Created by Shimaa Magdi on 12/7/17.
@@ -10,20 +10,17 @@ import Foundation
 
 // MARK: Extension for Repositories List ViewController controller protocol
 extension GRRepositoriesListViewController : GRRepositoryViewProtocol {
+    
     func setRepositories(repositoriesList: [GRRepositoryViewModel]) {
         self.repositoriesList = repositoriesList
     }
     
-    
-    
     func startLoading() {
-        //showProgressBar()
+        showProgressBar()
     }
     
     func finishLoading() {
-       
-        
-        //hideProgressBar()
+        hideProgressBar()
     }
     
     func handelError(error: Error) {

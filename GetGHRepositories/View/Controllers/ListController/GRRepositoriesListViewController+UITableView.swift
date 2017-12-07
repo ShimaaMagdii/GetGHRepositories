@@ -23,7 +23,11 @@ extension GRRepositoriesListViewController: UITableViewDelegate, UITableViewData
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: GRRepositoryViewCell  = tableView.dequeueReusableCell(withIdentifier: UITableViewCellIdentifier.gettyCellIdentifier) as! GRRepositoryViewCell
-        cell.customizeCellWithModel(repositoriesList[indexPath.row])
+        cell.customizeCellWithModel(repositoriesList[indexPath.row],
+                                    completion: { [weak self] in
+                                    self?.repositoryTableView.beginUpdates()
+                                    self?.repositoryTableView.endUpdates()
+        })
         
         return cell
     }
