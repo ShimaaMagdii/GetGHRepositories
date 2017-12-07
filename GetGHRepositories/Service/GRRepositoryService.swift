@@ -25,8 +25,6 @@ class GRRepositoryService  {
         getRepositoriesData(searchPhrase: searchPhrase, success: success, failure: failure)
     }
     
-    
-    
     private func getRepositoriesData (searchPhrase: String, success :@escaping ViewModelClosure , failure: @escaping ErrorClosure){
         
         let path = String(format:Network.getRepositories, searchPhrase)

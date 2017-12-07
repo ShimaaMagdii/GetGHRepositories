@@ -13,13 +13,18 @@
 		D41B91A71FD94E9C00589A57 /* UIView+CardShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B91A61FD94E9C00589A57 /* UIView+CardShadow.swift */; };
 		D41B91AB1FD9583500589A57 /* GRRepositoriesListViewController+UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B91AA1FD9583500589A57 /* GRRepositoriesListViewController+UISearchBar.swift */; };
 		D41B91AD1FD9674400589A57 /* GRRepositoriesListViewController+GRRepositoryViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B91AC1FD9674400589A57 /* GRRepositoriesListViewController+GRRepositoryViewProtocol.swift */; };
+		D4B0A4341FD9806600D73A8F /* GRNetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0A4331FD9806600D73A8F /* GRNetworkManagerTests.swift */; };
+		D4B0A4361FD986D300D73A8F /* GRMappingManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0A4351FD986D300D73A8F /* GRMappingManagerTests.swift */; };
+		D4B0A4381FD988DC00D73A8F /* GRRepositoryServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0A4371FD988DC00D73A8F /* GRRepositoryServiceTests.swift */; };
+		D4B0A43A1FD9929700D73A8F /* GRBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0A4391FD9929700D73A8F /* GRBaseViewControllerTests.swift */; };
+		D4B0A43C1FD9930C00D73A8F /* GRRepositoriesListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0A43B1FD9930C00D73A8F /* GRRepositoriesListViewControllerTests.swift */; };
+		D4B0A43D1FD9989900D73A8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F07C5E1FD81CDF008461B1 /* Main.storyboard */; };
 		D4D5493A1FD89DCB00B56555 /* GRCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D549391FD89DCB00B56555 /* GRCustomView.swift */; };
 		D4D5493C1FD8A7D300B56555 /* GRRepositoriesListViewController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5493B1FD8A7D300B56555 /* GRRepositoriesListViewController+UITableView.swift */; };
 		D4F07C5B1FD81CDF008461B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C5A1FD81CDF008461B1 /* AppDelegate.swift */; };
 		D4F07C601FD81CDF008461B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F07C5E1FD81CDF008461B1 /* Main.storyboard */; };
 		D4F07C621FD81CE0008461B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F07C611FD81CE0008461B1 /* Assets.xcassets */; };
 		D4F07C651FD81CE0008461B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F07C631FD81CE0008461B1 /* LaunchScreen.storyboard */; };
-		D4F07C701FD81CE0008461B1 /* GetGHRepositoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C6F1FD81CE0008461B1 /* GetGHRepositoriesTests.swift */; };
 		D4F07C7B1FD81CE0008461B1 /* GetGHRepositoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C7A1FD81CE0008461B1 /* GetGHRepositoriesUITests.swift */; };
 		D4F07C891FD81D64008461B1 /* GRBaseMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C881FD81D64008461B1 /* GRBaseMappable.swift */; };
 		D4F07C8D1FD81DD2008461B1 /* GRRepositoriesListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C8C1FD81DD2008461B1 /* GRRepositoriesListModel.swift */; };
@@ -66,6 +71,12 @@
 		D41B91A61FD94E9C00589A57 /* UIView+CardShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CardShadow.swift"; sourceTree = "<group>"; };
 		D41B91AA1FD9583500589A57 /* GRRepositoriesListViewController+UISearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GRRepositoriesListViewController+UISearchBar.swift"; sourceTree = "<group>"; };
 		D41B91AC1FD9674400589A57 /* GRRepositoriesListViewController+GRRepositoryViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GRRepositoriesListViewController+GRRepositoryViewProtocol.swift"; sourceTree = "<group>"; };
+		D4B0A4321FD9802000D73A8F /* repositoriesData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = repositoriesData.json; sourceTree = "<group>"; };
+		D4B0A4331FD9806600D73A8F /* GRNetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRNetworkManagerTests.swift; sourceTree = "<group>"; };
+		D4B0A4351FD986D300D73A8F /* GRMappingManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRMappingManagerTests.swift; sourceTree = "<group>"; };
+		D4B0A4371FD988DC00D73A8F /* GRRepositoryServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRRepositoryServiceTests.swift; sourceTree = "<group>"; };
+		D4B0A4391FD9929700D73A8F /* GRBaseViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRBaseViewControllerTests.swift; sourceTree = "<group>"; };
+		D4B0A43B1FD9930C00D73A8F /* GRRepositoriesListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRRepositoriesListViewControllerTests.swift; sourceTree = "<group>"; };
 		D4D549391FD89DCB00B56555 /* GRCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRCustomView.swift; sourceTree = "<group>"; };
 		D4D5493B1FD8A7D300B56555 /* GRRepositoriesListViewController+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GRRepositoriesListViewController+UITableView.swift"; sourceTree = "<group>"; };
 		D4F07C571FD81CDF008461B1 /* GetGHRepositories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetGHRepositories.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,7 +86,6 @@
 		D4F07C641FD81CE0008461B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4F07C661FD81CE0008461B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4F07C6B1FD81CE0008461B1 /* GetGHRepositoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetGHRepositoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4F07C6F1FD81CE0008461B1 /* GetGHRepositoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGHRepositoriesTests.swift; sourceTree = "<group>"; };
 		D4F07C711FD81CE0008461B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4F07C761FD81CE0008461B1 /* GetGHRepositoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetGHRepositoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F07C7A1FD81CE0008461B1 /* GetGHRepositoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGHRepositoriesUITests.swift; sourceTree = "<group>"; };
@@ -212,7 +222,12 @@
 		D4F07C6E1FD81CE0008461B1 /* GetGHRepositoriesTests */ = {
 			isa = PBXGroup;
 			children = (
-				D4F07C6F1FD81CE0008461B1 /* GetGHRepositoriesTests.swift */,
+				D4B0A4391FD9929700D73A8F /* GRBaseViewControllerTests.swift */,
+				D4B0A43B1FD9930C00D73A8F /* GRRepositoriesListViewControllerTests.swift */,
+				D4B0A4331FD9806600D73A8F /* GRNetworkManagerTests.swift */,
+				D4B0A4371FD988DC00D73A8F /* GRRepositoryServiceTests.swift */,
+				D4B0A4351FD986D300D73A8F /* GRMappingManagerTests.swift */,
+				D4B0A4321FD9802000D73A8F /* repositoriesData.json */,
 				D4F07C711FD81CE0008461B1 /* Info.plist */,
 			);
 			path = GetGHRepositoriesTests;
@@ -462,6 +477,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B0A43D1FD9989900D73A8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,7 +677,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F07C701FD81CE0008461B1 /* GetGHRepositoriesTests.swift in Sources */,
+				D4B0A43A1FD9929700D73A8F /* GRBaseViewControllerTests.swift in Sources */,
+				D4B0A4341FD9806600D73A8F /* GRNetworkManagerTests.swift in Sources */,
+				D4B0A43C1FD9930C00D73A8F /* GRRepositoriesListViewControllerTests.swift in Sources */,
+				D4B0A4381FD988DC00D73A8F /* GRRepositoryServiceTests.swift in Sources */,
+				D4B0A4361FD986D300D73A8F /* GRMappingManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

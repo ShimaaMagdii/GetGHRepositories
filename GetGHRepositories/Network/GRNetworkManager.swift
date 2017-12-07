@@ -14,7 +14,7 @@ import Alamofire
 typealias SuccessNetworkClousre = (Any?)  -> Void
 typealias FailureNetworkClousre = (Error) -> Void
 
-class GRNetworkManager {
+public class GRNetworkManager {
     
     /**
      Requests data from API and get the response back.
