@@ -10,6 +10,7 @@
 		7AA5BF805B9D9AB2582A8CE6 /* Pods_GetGHRepositoriesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF68E31920C92A5E3F1E4FA /* Pods_GetGHRepositoriesUITests.framework */; };
 		7C2E451E79090DC577F875F0 /* Pods_GetGHRepositories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC52DB03149900C4EC793AC /* Pods_GetGHRepositories.framework */; };
 		BA31A4BB7B3D7FBE6DEC57A1 /* Pods_GetGHRepositoriesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2018F3CD7515D30893758876 /* Pods_GetGHRepositoriesTests.framework */; };
+		D41B91A71FD94E9C00589A57 /* UIView+CardShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41B91A61FD94E9C00589A57 /* UIView+CardShadow.swift */; };
 		D4D5493A1FD89DCB00B56555 /* GRCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D549391FD89DCB00B56555 /* GRCustomView.swift */; };
 		D4D5493C1FD8A7D300B56555 /* GRRepositoriesListViewController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5493B1FD8A7D300B56555 /* GRRepositoriesListViewController+UITableView.swift */; };
 		D4D5493E1FD8A81000B56555 /*  GRRepositoriesListViewController+MTVehicleViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5493D1FD8A81000B56555 /*  GRRepositoriesListViewController+MTVehicleViewProtocol.swift */; };
@@ -61,6 +62,7 @@
 		98D610542F04D9E65C5F3166 /* Pods-GetGHRepositoriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetGHRepositoriesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetGHRepositoriesTests/Pods-GetGHRepositoriesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B49BFC5B54E48AB9C3EE1A53 /* Pods-GetGHRepositoriesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetGHRepositoriesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetGHRepositoriesUITests/Pods-GetGHRepositoriesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BBF14273617DBD28F8ABB7BD /* Pods-GetGHRepositories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetGHRepositories.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetGHRepositories/Pods-GetGHRepositories.release.xcconfig"; sourceTree = "<group>"; };
+		D41B91A61FD94E9C00589A57 /* UIView+CardShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CardShadow.swift"; sourceTree = "<group>"; };
 		D4D549391FD89DCB00B56555 /* GRCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRCustomView.swift; sourceTree = "<group>"; };
 		D4D5493B1FD8A7D300B56555 /* GRRepositoriesListViewController+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GRRepositoriesListViewController+UITableView.swift"; sourceTree = "<group>"; };
 		D4D5493D1FD8A81000B56555 /*  GRRepositoriesListViewController+MTVehicleViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " GRRepositoriesListViewController+MTVehicleViewProtocol.swift"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				D4D549391FD89DCB00B56555 /* GRCustomView.swift */,
+				D41B91A61FD94E9C00589A57 /* UIView+CardShadow.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -615,6 +618,7 @@
 			files = (
 				D4F07C9D1FD82362008461B1 /* GRRepositoryViewCell.swift in Sources */,
 				D4F07C961FD81F25008461B1 /* GRBaseViewController.swift in Sources */,
+				D41B91A71FD94E9C00589A57 /* UIView+CardShadow.swift in Sources */,
 				D4F07C891FD81D64008461B1 /* GRBaseMappable.swift in Sources */,
 				D4F07CA01FD8242A008461B1 /* Constants.swift in Sources */,
 				D4F07CAD1FD826E1008461B1 /* GRRepositoryViewProtocol.swift in Sources */,

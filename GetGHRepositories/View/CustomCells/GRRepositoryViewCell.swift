@@ -22,7 +22,6 @@ class GRRepositoryViewCell : UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        containerView.addShadow()
     }
     
     /**

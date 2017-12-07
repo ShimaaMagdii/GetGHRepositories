@@ -13,11 +13,11 @@ import UIKit
  */
 class GRRepositoriesListViewController: GRBaseViewController {
     
-    // MARK: - Properties
+    // MARK: - IBOutlets
     @IBOutlet weak var repositoryTableView: UITableView!
     
-    // MARK: - IBOutlets
-    var repositoryPresenter =  GRRepositoryPresenter()
+    // MARK: - Properties
+    var repositoryPresenter :  GRRepositoryPresenter!
     var repositoriesList = [GRRepositoryViewModel](){
         didSet{
             repositoryTableView.reloadData()
@@ -28,16 +28,16 @@ class GRRepositoriesListViewController: GRBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
+        repositoryPresenter = GRRepositoryPresenter(self)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        repositoryPresenter.attachView(view: self)
         repositoryPresenter.loadDataWithSearchText(searchText: "images")
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
         repositoryPresenter.detachView()
     }
     

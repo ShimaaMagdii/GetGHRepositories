@@ -12,41 +12,44 @@ import Foundation
  */
 class GRRepositoryPresenter: NSObject {
     // MARK: - Properties
-    private let repositoryService = GRRepositoryService()
-    weak private var repositoryView : GRRepositoryViewProtocol?
+    private lazy var repositoryService = GRRepositoryService()
+    weak private var delegate : GRRepositoryViewProtocol?
+    
     
     /**
-     Attach current displayed view controller which confirm GRRepositoryViewProtocol.
+     init with current displayed view controller which confirm GRRepositoryViewProtocol.
      */
-    func attachView(view: GRRepositoryViewProtocol){
-        repositoryView = view
+    init(_ delegate: GRRepositoryViewProtocol) {
+        
+        self.delegate = delegate
+        super.init()
     }
     
     /**
      DetachView view controller when became disappeared.
      */
     func detachView() {
-        repositoryView = nil
+        delegate = nil
     }
     
     /**
      Get repositories data from service api and call VC delegte to update its views
      */
-     func loadDataWithSearchText(searchText: String) {
-        self.repositoryView?.startLoading()
+    func loadDataWithSearchText(searchText: String) {
+        self.delegate?.startLoading()
         repositoryService.getDataFromApiFor(searchPhrase: searchText, success: {[weak self] (modelArray) in
             guard let strongSelf = self else { return }
-            self?.repositoryView?.finishLoading()
-            strongSelf.repositoryView?.setRepositories(repositoriesList: modelArray ?? [])
+            self?.delegate?.finishLoading()
+            strongSelf.delegate?.setRepositories(repositoriesList: modelArray ?? [])
         }) {[weak self] (error) in
             guard let strongSelf = self else { return }
-            self?.repositoryView?.finishLoading()
-            strongSelf.repositoryView?.handelError(error: error)
+            self?.delegate?.finishLoading()
+            strongSelf.delegate?.handelError(error: error)
         }
         
         
     }
     
-
+    
     
 }
