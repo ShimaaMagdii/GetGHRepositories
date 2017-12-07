@@ -30,7 +30,6 @@ class GetGHRepositoriesUITests: XCTestCase {
         let tableView = app.tables.element
         let searchSearchField = app.tables.searchFields["Search"]
         let searchBarButton = app/*@START_MENU_TOKEN@*/.buttons["Search"]/*[[".keyboards.buttons[\"Search\"]",".buttons[\"Search\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
-        //app.buttons["Cancel"].tap()
         XCTAssertTrue(tableView.cells.count == 0)
         
         //then
