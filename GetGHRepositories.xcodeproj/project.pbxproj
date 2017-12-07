@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AA5BF805B9D9AB2582A8CE6 /* Pods_GetGHRepositoriesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF68E31920C92A5E3F1E4FA /* Pods_GetGHRepositoriesUITests.framework */; };
+		7C2E451E79090DC577F875F0 /* Pods_GetGHRepositories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC52DB03149900C4EC793AC /* Pods_GetGHRepositories.framework */; };
+		BA31A4BB7B3D7FBE6DEC57A1 /* Pods_GetGHRepositoriesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2018F3CD7515D30893758876 /* Pods_GetGHRepositoriesTests.framework */; };
+		D4D5493A1FD89DCB00B56555 /* GRCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D549391FD89DCB00B56555 /* GRCustomView.swift */; };
+		D4D5493C1FD8A7D300B56555 /* GRRepositoriesListViewController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5493B1FD8A7D300B56555 /* GRRepositoriesListViewController+UITableView.swift */; };
+		D4D5493E1FD8A81000B56555 /*  GRRepositoriesListViewController+MTVehicleViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5493D1FD8A81000B56555 /*  GRRepositoriesListViewController+MTVehicleViewProtocol.swift */; };
 		D4F07C5B1FD81CDF008461B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C5A1FD81CDF008461B1 /* AppDelegate.swift */; };
-		D4F07C5D1FD81CDF008461B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C5C1FD81CDF008461B1 /* ViewController.swift */; };
 		D4F07C601FD81CDF008461B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F07C5E1FD81CDF008461B1 /* Main.storyboard */; };
 		D4F07C621FD81CE0008461B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F07C611FD81CE0008461B1 /* Assets.xcassets */; };
 		D4F07C651FD81CE0008461B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F07C631FD81CE0008461B1 /* LaunchScreen.storyboard */; };
 		D4F07C701FD81CE0008461B1 /* GetGHRepositoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C6F1FD81CE0008461B1 /* GetGHRepositoriesTests.swift */; };
 		D4F07C7B1FD81CE0008461B1 /* GetGHRepositoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C7A1FD81CE0008461B1 /* GetGHRepositoriesUITests.swift */; };
+		D4F07C891FD81D64008461B1 /* GRBaseMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C881FD81D64008461B1 /* GRBaseMappable.swift */; };
+		D4F07C8D1FD81DD2008461B1 /* GRRepositoriesListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C8C1FD81DD2008461B1 /* GRRepositoriesListModel.swift */; };
+		D4F07C901FD81E40008461B1 /* GRBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C8F1FD81E40008461B1 /* GRBaseViewModel.swift */; };
+		D4F07C961FD81F25008461B1 /* GRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C951FD81F25008461B1 /* GRBaseViewController.swift */; };
+		D4F07C991FD8202F008461B1 /* GRRepositoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C981FD8202F008461B1 /* GRRepositoriesListViewController.swift */; };
+		D4F07C9D1FD82362008461B1 /* GRRepositoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C9C1FD82362008461B1 /* GRRepositoryViewCell.swift */; };
+		D4F07CA01FD8242A008461B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07C9F1FD8242A008461B1 /* Constants.swift */; };
+		D4F07CA31FD8256B008461B1 /* GRRepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07CA21FD8256B008461B1 /* GRRepositoryService.swift */; };
+		D4F07CA51FD825BE008461B1 /* GRRepositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07CA41FD825BE008461B1 /* GRRepositoryViewModel.swift */; };
+		D4F07CA81FD82610008461B1 /* GRNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07CA71FD82610008461B1 /* GRNetworkManager.swift */; };
+		D4F07CAA1FD82643008461B1 /* GRMappingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07CA91FD82643008461B1 /* GRMappingManager.swift */; };
+		D4F07CAD1FD826E1008461B1 /* GRRepositoryViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07CAC1FD826E1008461B1 /* GRRepositoryViewProtocol.swift */; };
+		D4F07CAF1FD82733008461B1 /* GRRepositoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F07CAE1FD82733008461B1 /* GRRepositoryPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BFEB8DEDD619FEF38CF3941 /* Pods-GetGHRepositoriesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetGHRepositoriesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetGHRepositoriesTests/Pods-GetGHRepositoriesTests.release.xcconfig"; sourceTree = "<group>"; };
+		2018F3CD7515D30893758876 /* Pods_GetGHRepositoriesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetGHRepositoriesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF68E31920C92A5E3F1E4FA /* Pods_GetGHRepositoriesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetGHRepositoriesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC52DB03149900C4EC793AC /* Pods_GetGHRepositories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetGHRepositories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		717E5EC8E14054D338B1166A /* Pods-GetGHRepositoriesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetGHRepositoriesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetGHRepositoriesUITests/Pods-GetGHRepositoriesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D7B1178EC5A6CE20C452852 /* Pods-GetGHRepositories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetGHRepositories.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetGHRepositories/Pods-GetGHRepositories.debug.xcconfig"; sourceTree = "<group>"; };
+		98D610542F04D9E65C5F3166 /* Pods-GetGHRepositoriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetGHRepositoriesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetGHRepositoriesTests/Pods-GetGHRepositoriesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B49BFC5B54E48AB9C3EE1A53 /* Pods-GetGHRepositoriesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetGHRepositoriesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetGHRepositoriesUITests/Pods-GetGHRepositoriesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBF14273617DBD28F8ABB7BD /* Pods-GetGHRepositories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetGHRepositories.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetGHRepositories/Pods-GetGHRepositories.release.xcconfig"; sourceTree = "<group>"; };
+		D4D549391FD89DCB00B56555 /* GRCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRCustomView.swift; sourceTree = "<group>"; };
+		D4D5493B1FD8A7D300B56555 /* GRRepositoriesListViewController+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GRRepositoriesListViewController+UITableView.swift"; sourceTree = "<group>"; };
+		D4D5493D1FD8A81000B56555 /*  GRRepositoriesListViewController+MTVehicleViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " GRRepositoriesListViewController+MTVehicleViewProtocol.swift"; sourceTree = "<group>"; };
 		D4F07C571FD81CDF008461B1 /* GetGHRepositories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetGHRepositories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F07C5A1FD81CDF008461B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4F07C5C1FD81CDF008461B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4F07C5F1FD81CDF008461B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4F07C611FD81CE0008461B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4F07C641FD81CE0008461B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +76,19 @@
 		D4F07C761FD81CE0008461B1 /* GetGHRepositoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetGHRepositoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F07C7A1FD81CE0008461B1 /* GetGHRepositoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGHRepositoriesUITests.swift; sourceTree = "<group>"; };
 		D4F07C7C1FD81CE0008461B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4F07C881FD81D64008461B1 /* GRBaseMappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRBaseMappable.swift; sourceTree = "<group>"; };
+		D4F07C8C1FD81DD2008461B1 /* GRRepositoriesListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRRepositoriesListModel.swift; sourceTree = "<group>"; };
+		D4F07C8F1FD81E40008461B1 /* GRBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRBaseViewModel.swift; sourceTree = "<group>"; };
+		D4F07C951FD81F25008461B1 /* GRBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRBaseViewController.swift; sourceTree = "<group>"; };
+		D4F07C981FD8202F008461B1 /* GRRepositoriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRRepositoriesListViewController.swift; sourceTree = "<group>"; };
+		D4F07C9C1FD82362008461B1 /* GRRepositoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRRepositoryViewCell.swift; sourceTree = "<group>"; };
+		D4F07C9F1FD8242A008461B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D4F07CA21FD8256B008461B1 /* GRRepositoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRRepositoryService.swift; sourceTree = "<group>"; };
+		D4F07CA41FD825BE008461B1 /* GRRepositoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRRepositoryViewModel.swift; sourceTree = "<group>"; };
+		D4F07CA71FD82610008461B1 /* GRNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRNetworkManager.swift; sourceTree = "<group>"; };
+		D4F07CA91FD82643008461B1 /* GRMappingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRMappingManager.swift; sourceTree = "<group>"; };
+		D4F07CAC1FD826E1008461B1 /* GRRepositoryViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRRepositoryViewProtocol.swift; sourceTree = "<group>"; };
+		D4F07CAE1FD82733008461B1 /* GRRepositoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRRepositoryPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C2E451E79090DC577F875F0 /* Pods_GetGHRepositories.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA31A4BB7B3D7FBE6DEC57A1 /* Pods_GetGHRepositoriesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +112,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA5BF805B9D9AB2582A8CE6 /* Pods_GetGHRepositoriesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89089B9CD88F45280237BA5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AC52DB03149900C4EC793AC /* Pods_GetGHRepositories.framework */,
+				2018F3CD7515D30893758876 /* Pods_GetGHRepositoriesTests.framework */,
+				2EF68E31920C92A5E3F1E4FA /* Pods_GetGHRepositoriesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB9D00408652BDECE0E72668 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D7B1178EC5A6CE20C452852 /* Pods-GetGHRepositories.debug.xcconfig */,
+				BBF14273617DBD28F8ABB7BD /* Pods-GetGHRepositories.release.xcconfig */,
+				98D610542F04D9E65C5F3166 /* Pods-GetGHRepositoriesTests.debug.xcconfig */,
+				1BFEB8DEDD619FEF38CF3941 /* Pods-GetGHRepositoriesTests.release.xcconfig */,
+				717E5EC8E14054D338B1166A /* Pods-GetGHRepositoriesUITests.debug.xcconfig */,
+				B49BFC5B54E48AB9C3EE1A53 /* Pods-GetGHRepositoriesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4D549381FD89DAF00B56555 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D4D549391FD89DCB00B56555 /* GRCustomView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		D4F07C4E1FD81CDF008461B1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +157,8 @@
 				D4F07C6E1FD81CE0008461B1 /* GetGHRepositoriesTests */,
 				D4F07C791FD81CE0008461B1 /* GetGHRepositoriesUITests */,
 				D4F07C581FD81CDF008461B1 /* Products */,
+				CB9D00408652BDECE0E72668 /* Pods */,
+				89089B9CD88F45280237BA5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +175,13 @@
 		D4F07C591FD81CDF008461B1 /* GetGHRepositories */ = {
 			isa = PBXGroup;
 			children = (
+				D4F07C8A1FD81D8E008461B1 /* Models */,
+				D4F07C9A1FD8231C008461B1 /* View */,
+				D4F07CAB1FD826D2008461B1 /* Presenter */,
+				D4F07CA61FD825F8008461B1 /* Network */,
+				D4F07CA11FD8249A008461B1 /* Service */,
+				D4F07C9E1FD8241C008461B1 /* Utils */,
 				D4F07C5A1FD81CDF008461B1 /* AppDelegate.swift */,
-				D4F07C5C1FD81CDF008461B1 /* ViewController.swift */,
 				D4F07C5E1FD81CDF008461B1 /* Main.storyboard */,
 				D4F07C611FD81CE0008461B1 /* Assets.xcassets */,
 				D4F07C631FD81CE0008461B1 /* LaunchScreen.storyboard */,
@@ -125,6 +208,112 @@
 			path = GetGHRepositoriesUITests;
 			sourceTree = "<group>";
 		};
+		D4F07C8A1FD81D8E008461B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07C8E1FD81E30008461B1 /* ViewModel */,
+				D4F07C8B1FD81D94008461B1 /* DTO */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D4F07C8B1FD81D94008461B1 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07C881FD81D64008461B1 /* GRBaseMappable.swift */,
+				D4F07C8C1FD81DD2008461B1 /* GRRepositoriesListModel.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		D4F07C8E1FD81E30008461B1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07C8F1FD81E40008461B1 /* GRBaseViewModel.swift */,
+				D4F07CA41FD825BE008461B1 /* GRRepositoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D4F07C931FD81EFB008461B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07C971FD82000008461B1 /* ListController */,
+				D4F07C941FD81F03008461B1 /* BaseController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D4F07C941FD81F03008461B1 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07C951FD81F25008461B1 /* GRBaseViewController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		D4F07C971FD82000008461B1 /* ListController */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07C981FD8202F008461B1 /* GRRepositoriesListViewController.swift */,
+				D4D5493B1FD8A7D300B56555 /* GRRepositoriesListViewController+UITableView.swift */,
+				D4D5493D1FD8A81000B56555 /*  GRRepositoriesListViewController+MTVehicleViewProtocol.swift */,
+			);
+			path = ListController;
+			sourceTree = "<group>";
+		};
+		D4F07C9A1FD8231C008461B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4D549381FD89DAF00B56555 /* CustomViews */,
+				D4F07C9B1FD8232D008461B1 /* CustomCells */,
+				D4F07C931FD81EFB008461B1 /* Controllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4F07C9B1FD8232D008461B1 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07C9C1FD82362008461B1 /* GRRepositoryViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		D4F07C9E1FD8241C008461B1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07C9F1FD8242A008461B1 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D4F07CA11FD8249A008461B1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07CA21FD8256B008461B1 /* GRRepositoryService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D4F07CA61FD825F8008461B1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07CA71FD82610008461B1 /* GRNetworkManager.swift */,
+				D4F07CA91FD82643008461B1 /* GRMappingManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D4F07CAB1FD826D2008461B1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D4F07CAC1FD826E1008461B1 /* GRRepositoryViewProtocol.swift */,
+				D4F07CAE1FD82733008461B1 /* GRRepositoryPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4F07C7F1FD81CE0008461B1 /* Build configuration list for PBXNativeTarget "GetGHRepositories" */;
 			buildPhases = (
+				1D2C3BACFD511CB6E97C9B7B /* [CP] Check Pods Manifest.lock */,
 				D4F07C531FD81CDF008461B1 /* Sources */,
 				D4F07C541FD81CDF008461B1 /* Frameworks */,
 				D4F07C551FD81CDF008461B1 /* Resources */,
+				478FCF617048570F8216E1A0 /* [CP] Embed Pods Frameworks */,
+				A8469A2381991C0DE1756233 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +341,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4F07C821FD81CE0008461B1 /* Build configuration list for PBXNativeTarget "GetGHRepositoriesTests" */;
 			buildPhases = (
+				1A8386D77BB7611C7387BBE6 /* [CP] Check Pods Manifest.lock */,
 				D4F07C671FD81CE0008461B1 /* Sources */,
 				D4F07C681FD81CE0008461B1 /* Frameworks */,
 				D4F07C691FD81CE0008461B1 /* Resources */,
+				42BA1FF8CE2BA200C43B52A1 /* [CP] Embed Pods Frameworks */,
+				D747F65B1513999881B0A04A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4F07C851FD81CE0008461B1 /* Build configuration list for PBXNativeTarget "GetGHRepositoriesUITests" */;
 			buildPhases = (
+				FFDA9DA92C068F22D8FB098B /* [CP] Check Pods Manifest.lock */,
 				D4F07C721FD81CE0008461B1 /* Sources */,
 				D4F07C731FD81CE0008461B1 /* Frameworks */,
 				D4F07C741FD81CE0008461B1 /* Resources */,
+				3AEDD8CC941C1D08CF5E61CA /* [CP] Embed Pods Frameworks */,
+				1EAD21A6291AF338E1BE5224 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +452,184 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A8386D77BB7611C7387BBE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetGHRepositoriesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D2C3BACFD511CB6E97C9B7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetGHRepositories-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EAD21A6291AF338E1BE5224 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetGHRepositoriesUITests/Pods-GetGHRepositoriesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AEDD8CC941C1D08CF5E61CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetGHRepositoriesUITests/Pods-GetGHRepositoriesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42BA1FF8CE2BA200C43B52A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetGHRepositoriesTests/Pods-GetGHRepositoriesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		478FCF617048570F8216E1A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GetGHRepositories/Pods-GetGHRepositories-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetGHRepositories/Pods-GetGHRepositories-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8469A2381991C0DE1756233 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetGHRepositories/Pods-GetGHRepositories-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D747F65B1513999881B0A04A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetGHRepositoriesTests/Pods-GetGHRepositoriesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFDA9DA92C068F22D8FB098B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetGHRepositoriesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4F07C531FD81CDF008461B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F07C5D1FD81CDF008461B1 /* ViewController.swift in Sources */,
+				D4F07C9D1FD82362008461B1 /* GRRepositoryViewCell.swift in Sources */,
+				D4F07C961FD81F25008461B1 /* GRBaseViewController.swift in Sources */,
+				D4F07C891FD81D64008461B1 /* GRBaseMappable.swift in Sources */,
+				D4F07CA01FD8242A008461B1 /* Constants.swift in Sources */,
+				D4F07CAD1FD826E1008461B1 /* GRRepositoryViewProtocol.swift in Sources */,
+				D4F07C8D1FD81DD2008461B1 /* GRRepositoriesListModel.swift in Sources */,
+				D4F07CA31FD8256B008461B1 /* GRRepositoryService.swift in Sources */,
+				D4D5493C1FD8A7D300B56555 /* GRRepositoriesListViewController+UITableView.swift in Sources */,
+				D4F07CAA1FD82643008461B1 /* GRMappingManager.swift in Sources */,
+				D4F07CA81FD82610008461B1 /* GRNetworkManager.swift in Sources */,
+				D4F07C991FD8202F008461B1 /* GRRepositoriesListViewController.swift in Sources */,
 				D4F07C5B1FD81CDF008461B1 /* AppDelegate.swift in Sources */,
+				D4D5493A1FD89DCB00B56555 /* GRCustomView.swift in Sources */,
+				D4F07C901FD81E40008461B1 /* GRBaseViewModel.swift in Sources */,
+				D4D5493E1FD8A81000B56555 /*  GRRepositoriesListViewController+MTVehicleViewProtocol.swift in Sources */,
+				D4F07CA51FD825BE008461B1 /* GRRepositoryViewModel.swift in Sources */,
+				D4F07CAF1FD82733008461B1 /* GRRepositoryPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +793,11 @@
 		};
 		D4F07C801FD81CE0008461B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7B1178EC5A6CE20C452852 /* Pods-GetGHRepositories.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SK6WUB3TZG;
 				INFOPLIST_FILE = GetGHRepositories/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AsanaRebel.GetGHRepositories;
@@ -438,9 +809,11 @@
 		};
 		D4F07C811FD81CE0008461B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF14273617DBD28F8ABB7BD /* Pods-GetGHRepositories.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SK6WUB3TZG;
 				INFOPLIST_FILE = GetGHRepositories/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AsanaRebel.GetGHRepositories;
@@ -452,6 +825,7 @@
 		};
 		D4F07C831FD81CE0008461B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D610542F04D9E65C5F3166 /* Pods-GetGHRepositoriesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +842,7 @@
 		};
 		D4F07C841FD81CE0008461B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BFEB8DEDD619FEF38CF3941 /* Pods-GetGHRepositoriesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +859,7 @@
 		};
 		D4F07C861FD81CE0008461B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717E5EC8E14054D338B1166A /* Pods-GetGHRepositoriesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +875,7 @@
 		};
 		D4F07C871FD81CE0008461B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49BFC5B54E48AB9C3EE1A53 /* Pods-GetGHRepositoriesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
